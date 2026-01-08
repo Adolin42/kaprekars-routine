@@ -44,7 +44,7 @@ def kaprekar(x: int, count: int):
     
     # Check for base case, input = 6174
     if x == 6174:
-        print(f"Kaprekar's Constant achieved with {count} steps: {x}")
+        print(f"Kaprekar's Constant achieved with {count} iterations: {x}")
         return
 
     # Return the difference between the bigger and smaller number

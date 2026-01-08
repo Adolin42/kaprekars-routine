@@ -13,6 +13,8 @@
 #    One where the digits are in ascending order
 
 # 3) Subtract: Subtract the smaller number from the bigger number
+#    In the event the difference ends up being fewer than 4 digits,
+#    add leading zeros so the function works (92 -> 0092)
 
 # 4) Repeat: Take your answer and repeat steps 2 and 3
 

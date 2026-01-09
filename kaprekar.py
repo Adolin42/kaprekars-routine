@@ -18,10 +18,10 @@
 
 # 4) Repeat: Take your answer and repeat steps 2 and 3
 
-def kaprekar(x: int, count: int):
+def kaprekar(x: int, iterations: int):
     
-    # Increment count of iterations
-    count += 1
+    # Increment iterations of iterations
+    iterations += 1
     
     # Convert to str
     s = str(x).zfill(4) # Ensures 4 digits with leading zeros
@@ -44,12 +44,12 @@ def kaprekar(x: int, count: int):
     
     # Check for base case, input = 6174
     if x == 6174:
-        print(f"Kaprekar's Constant achieved with {count} iterations: {x}")
+        print(f"Kaprekar's Constant achieved with {iterations} iterations: {x}")
         return
 
     # Return the difference between the bigger and smaller number
     difference = descending_int - ascending_int
-    return kaprekar(difference, count)
+    return kaprekar(difference, iterations)
 
 
 

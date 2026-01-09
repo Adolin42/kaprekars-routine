@@ -1,7 +1,7 @@
 # Kaprekar's Routine: https://en.wikipedia.org/wiki/Kaprekar%27s_routine
 # It was discovered in 1949 by Indian recreational mathemetician D. R. Kaprekar.
 # He found that if you follow a specific set of simple rules,
-# every single four-digit number (with one exception) eventually turns into 6174,
+# every single four-digit number (with nine exceptions, where all digits are equal) eventually turns into 6174,
 # otherwise known as Kaprekar's Constant.
 
 # The Rules:

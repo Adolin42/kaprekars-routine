@@ -20,7 +20,7 @@
 
 def kaprekar(x: int, iterations: int):
     
-    # Increment iterations of iterations
+    # Increment iterations
     iterations += 1
     
     # Convert to str
